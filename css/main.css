@@ -1,20 +1,33 @@
-body {
+
+.wrapper {
 	text-align: center;
+	background-image: url("../images/notepad.jpg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100%;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding-top: 2.5em;
 }
 
 li {
 	list-style-type: none;
 }
 
-input {
+input, button {
 	font-size: 15px;
 	border-radius: 6px;
+	margin-top: 1em;
 }
 
 .list {
 	cursor: pointer;
-	margin-left: -6em;
-	margin-top: 1.5em;
+	text-align: left;
+	margin-left: 22em;
+	margin-top: .1em;
 	line-height: 1.5em;
 	font-size: 1.5em;
 }
