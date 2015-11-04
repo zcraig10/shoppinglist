@@ -1,5 +1,12 @@
-//$(".todo").click(function() {
-//	$(".list").append("1 ");
-//});
+$(document).ready(function() {
+	
+	$("#add-button").click(function() {
+		var item = $("#todo").val();
+			$(".list").append(item);
+	})
+});
 
-$(".list").slideToggle(500);
+//	$("#todo").click(function() {
+//		$(".list").append("1");
+//	})
+//});
