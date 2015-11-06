@@ -2,15 +2,26 @@ $(document).ready(function() {
 	
 	$("#add-button").click(function() {
 		var item = $("#todo").val();
-			$(".list").append(item);
+		$(".list").append('<li class="item">'+item+'</li>');
+		//makes input box blank
+		$("#todo").val("");
+	})
+	$(".item").click(function() {
+		$(this).wrap("<strike>");
+		$(this).fadeOut("slow");
 	})
 });
 
+function deleteitem(item) {
+
+}
+
 //jQuery:
-// make input box blank after clicking add-button
-// new item needs to go to new line
-// strikethrough after clicking on item
 // clear whole list when done??
 
 //CSS:
 //align items on lines
+
+
+//figure out how to use onclick to call the deleteitem function
+//hint: don't use item.click 
