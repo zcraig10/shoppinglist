@@ -6,22 +6,9 @@ $(document).ready(function() {
 		//makes input box blank
 		$("#todo").val("");
 	})
-	$(".item").click(function() {
+
+	$(".list").on('click', 'li', function() {
 		$(this).wrap("<strike>");
 		$(this).fadeOut("slow");
 	})
 });
-
-function deleteitem(item) {
-
-}
-
-//jQuery:
-// clear whole list when done??
-
-//CSS:
-//align items on lines
-
-
-//figure out how to use onclick to call the deleteitem function
-//hint: don't use item.click 
