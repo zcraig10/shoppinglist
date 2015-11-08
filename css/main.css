@@ -1,17 +1,16 @@
-
 .wrapper {
 	text-align: center;
 	background-image: url("../images/notepad.jpg");
 	background-size: 50%;
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: top center;
 	height: 100%;
 	width: 1500px;
 }
 
 h1 {
 	margin-bottom: 0;
-	padding-top: 2.5em;
+	padding-top: 3em;
 }
 
 li {
@@ -27,8 +26,9 @@ input, button {
 .list {
 	cursor: pointer;
 	text-align: left;
-	margin-left: 22em;
-	margin-top: .1em;
-	line-height: 1.5em;
+	margin: .5em 28em 0 25em;
+	line-height: 1.6em;
 	font-size: 1.5em;
 }
+
+/*change the divs*/
